@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkRed"
+    android:orientation="vertical"
+    tools:context=".FourInRawFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_4InRaw_ticTocToa"
+            android:textColor="@color/Black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/Orange"
+            android:fontFamily="casual"
+            android:text="@string/tic_toc_tao"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_4InRaw_4InRaw"
+            android:textColor="@color/Black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/Yellow"
+            android:fontFamily="casual"
+            android:text="@string/_4_in_raw"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="@string/game_4_in_raw"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="casual"
+                android:text="@string/player_1_blue"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/player_2_red"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txt_4InRaw_turn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:textColor="@color/Yellow"
+        android:textSize="25sp" />
+
+
+    <Button
+        android:textColor="@color/Black"
+        android:id="@+id/btn_4inRaw_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_marginLeft="10dp"
+        android:background="@color/Orange"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="casual"
+        android:text="@string/setting"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="350dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btn_4InRaw_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2.5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/round" />
+
+                    <Button
+                        android:id="@+id/btn_4InRaw_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2.5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/round" />
+
+                    <Button
+                        android:id="@+id/btn_4InRaw_3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2.5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/round" />
+
+                    <Button
+                        android:id="@+id/btn_4InRaw_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2.5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/round" />
+
+                    <Button
+                        android:id="@+id/btn_4InRaw_5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2.5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/round" />
+                </LinearLayout>   <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn_4InRaw_6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+
+                <Button
+                    android:id="@+id/btn_4InRaw_7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+
+                <Button
+                    android:id="@+id/btn_4InRaw_8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+
+                <Button
+                    android:id="@+id/btn_4InRaw_9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+
+                <Button
+                    android:id="@+id/btn_4InRaw_10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+            </LinearLayout>   <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn_4InRaw_11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+
+                <Button
+                    android:id="@+id/btn_4InRaw_12"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+
+                <Button
+                    android:id="@+id/btn_4InRaw_13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+
+                <Button
+                    android:id="@+id/btn_4InRaw_14"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+
+                <Button
+                    android:id="@+id/btn_4InRaw_15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+            </LinearLayout>   <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn_4InRaw_16"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+
+                <Button
+                    android:id="@+id/btn_4InRaw_17"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+
+                <Button
+                    android:id="@+id/btn_4InRaw_18"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+
+                <Button
+                    android:id="@+id/btn_4InRaw_19"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+
+                <Button
+                    android:id="@+id/btn_4InRaw_20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+            </LinearLayout>   <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn_4InRaw_21"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+
+                <Button
+                    android:id="@+id/btn_4InRaw_22"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+
+                <Button
+                    android:id="@+id/btn_4InRaw_23"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+
+                <Button
+                    android:id="@+id/btn_4InRaw_24"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+
+                <Button
+                    android:id="@+id/btn_4InRaw_25"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round" />
+            </LinearLayout>
+
+            </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+</LinearLayout>

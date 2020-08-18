@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/DarkRed"
+        android:orientation="vertical"
+        tools:context=".TicTocToaFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_ticTocToa_ticTocToa"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@color/Yellow"
+                android:fontFamily="casual"
+                android:text="@string/tic_toc_tao"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_ticTocToa_4InRaw"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@color/Orange"
+                android:fontFamily="casual"
+                android:text="@string/_4_in_raw"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:text="@string/game_tic_toc_toa"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/DarkRed">
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="@string/player_1_x"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:fontFamily="casual"
+                android:text="@string/player_2_o"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt_ticTocToa_turn"
+            android:layout_width="match_parent"
+            android:textSize="25sp"
+            android:fontFamily="casual"
+            android:layout_height="100dp"
+            android:textColor="@color/Yellow"
+            />
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center">
+
+            <Button
+                android:textSize="50sp"
+                android:fontFamily="casual"
+                android:layout_margin="2.5dp"
+                android:background="@drawable/round"
+                android:id="@+id/btn_ticTocToa_1"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <Button
+                android:textSize="50sp"
+                android:fontFamily="casual"
+                android:layout_margin="2.5dp"
+                android:background="@drawable/round"
+                android:id="@+id/btn_ticTocToa_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <Button
+                android:textSize="50sp"
+                android:fontFamily="casual"
+                android:layout_margin="2.5dp"
+                android:background="@drawable/round"
+                android:id="@+id/btn_ticTocToa_3"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center">
+
+            <Button
+                android:textSize="50sp"
+                android:fontFamily="casual"
+                android:layout_margin="2.5dp"
+                android:background="@drawable/round"
+                android:id="@+id/btn_ticTocToa_4"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <Button
+                android:textSize="50sp"
+                android:fontFamily="casual"
+                android:layout_margin="2.5dp"
+                android:background="@drawable/round"
+                android:id="@+id/btn_ticTocToa_5"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <Button
+                android:textSize="50sp"
+                android:fontFamily="casual"
+                android:layout_margin="2.5dp"
+                android:background="@drawable/round"
+                android:id="@+id/btn_ticTocToa_6"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center">
+
+            <Button
+                android:textSize="50sp"
+                android:fontFamily="casual"
+                android:layout_margin="2.5dp"
+                android:background="@drawable/round"
+                android:id="@+id/btn_ticTocToa_7"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <Button
+                android:textSize="50sp"
+                android:fontFamily="casual"
+                android:background="@drawable/round"
+                android:layout_margin="2.5dp"
+                android:id="@+id/btn_ticTocToa_8"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <Button
+                android:textSize="50sp"
+                android:fontFamily="casual"
+                android:layout_margin="2.5dp"
+                android:background="@drawable/round"
+                android:id="@+id/btn_ticTocToa_9"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </LinearLayout>
+        <Button
+            android:textColor="@color/Black"
+            android:id="@+id/btn_ticTocToa_setting"
+            android:layout_marginTop="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="@color/Orange"
+            android:layout_marginLeft="10dp"
+            android:text="@string/setting"/>
+
+    </LinearLayout>

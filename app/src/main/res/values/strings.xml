@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Game</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tic_toc_tao">Tic Toc Tao</string>
+    <string name="player_2_red">Player 2 : Red</string>
+    <string name="game_4_in_raw">Game : 4 In Raw</string>
+    <string name="game_tic_toc_toa">Game : Tic Toc Toa</string>
+    <string name="player_1_blue">Player 1 : Blue</string>
+    <string name="_4_in_raw">4 in Raw</string>
+    <string name="setting">Setting</string>
+    <string name="player_2_o">Player 2 : O</string>
+    <string name="player_1_x">Player 1 : X</string>
+
+
+</resources>
+
